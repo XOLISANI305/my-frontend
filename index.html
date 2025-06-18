@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Webhook Tester</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; max-width: 500px; margin: auto; }
+    input, button { padding: 0.5rem; width: 100%; margin-bottom: 1rem; }
+    #result { margin-top: 1rem; color: green; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <h2>Webhook Tester by Xolisani JamJam</h2>
+  <input type="email" id="email" placeholder="Enter your email" required />
+  <input type="url" id="url" placeholder="Enter your API endpoint URL" required />
+  <button onclick="testWebhook()">Test Webhook</button>
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
